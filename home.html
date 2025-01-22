@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="">
+        <nav class="flex justify-between items-center w-[100%] mx-auto py-5  text-slate-600">
+            <div class="mx-5 sm:mx-10 md:mx-auto lg:mx-auto">
+                <h1 class="text-3xl font-medium"><a href="home.html">eNno</a></h1>
+            </div>
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[40vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[3vh] gap-4">
+                    <li>
+                        <a href="" class=" hover:text-green-500 text-green-500">Home</a>
+                    </li>
+                    <li>
+                        <a href="" class=" hover:text-green-500">About</a>
+                    </li>
+                    <li>
+                        <a href="" class=" hover:text-green-500">Services</a>
+                    </li>
+                    <li>
+                        <a href="" class=" hover:text-green-500">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="" class=" hover:text-green-500">Team</a>
+                    </li>
+                    <li>
+                        <a href="" class=" hover:text-green-500">Dropdown</a>
+                    </li>
+                    <li>
+                        <a href="" class=" hover:text-green-500">Contact</a>
+                    </li>
+                    <li>
+                        <div class="flex items-center gap-2 lg:mr-80">
+                            <button class="bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-400">Get Started</button>
+                            
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+            <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+        </nav>
+    </header> 
+    <!-- Header End -->
+
+    <!-- Main Content Start -->
+    <main>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center items-center">
+            <div class="lg:ml-56 ml-auto">
+                <p class="text-5xl p-4 text-slate-500 font-bold">Elegant and creative solutions
+                </p>
+                <p class="text-gray-500 font-sans text-lg px-4">We are team of talented designers making websites with Bootstrap</p>
+                <div class="flex gap-10 my-8 ml-4">
+                <button class="bg-green-500 text-white  rounded-full hover:bg-green-400 px-5">Get Started</button>
+                <p class="py-2 font-semibold text-gray-500 hover:text-green-500"><a href="https://www.youtube.com">Watch Video</a></p>
+            </div>
+            </div>
+            <div>
+                <img src="Images/hero-img.png" class="h-4/6">
+            </div>
+        </div>
+    </main>
+    <!-- Main Content End -->
+    
+
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
+</body>
+</html>

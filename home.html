@@ -52,7 +52,9 @@
 
     <!-- Main Content Start -->
     <main>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center items-center">
+        <section id="home" class="section">
+            <!-- Ignore -->
+        <!-- <div class="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 justify-center items-center">
             <div class="ml-0 lg:ml-56 lg:mt-auto md:ml-0 sm:ml-0 ">
                 <p class="text-5xl p-4 text-slate-500 font-bold">Elegant and creative solutions
                 </p>
@@ -65,8 +67,28 @@
             <div class="size-2/3 justify-start bg-slate-500">
                 <img src="Images/hero-img.png" class="h-auto">
             </div>
+        </div> -->
+        <!-- Ignore End -->
+
+        <div class="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 place-content-center">
+            <div class="my-auto xl:ps-60 lg:ps-24 md:ps-40 sm:ps-20 ps-10 xl:pe-10 lg:pe-5 md:pe-36 sm:pe-10 pe-5 max-lg:order-2">
+                <p class="text-5xl  text-slate-500 font-bold">Elegant and creative solutions
+                </p>
+                <p class="text-gray-500 font-sans text-lg">We are team of talented designers making websites with Bootstrap</p>
+                <div class="flex gap-10 my-8 ml-4">
+                <button class="bg-green-500 text-white  rounded-full hover:bg-green-400 px-5">Get Started</button>
+                <p class="py-2 font-semibold text-gray-500 hover:text-green-500"><a href="https://www.youtube.com"><i class="bi bi-play-circle text-xl text-green-500"></i>&nbsp;Watch Video</a></p>
+                </div>
+            </div>
+            <div class="max-lg:order-1">
+                <img src="Images/hero-img.png" class="h-5/6 xl:float-start md:mx-auto sm:mx-auto mx-auto">
+            </div>
         </div>
-        <div class="justify-center items-center">
+
+
+
+        <!-- Ignore -->
+        <!-- <div class="justify-center items-center">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 xl:mt-48 xl:mx-64 lg:mt-0 md:mt-0 sm:mt-0 ">
             <div class="bg-gray-50 min-w-[50px] py-16 px-8">
                 <i class="bi bi-activity text-4xl text-green-500"></i>
@@ -84,18 +106,41 @@
                 <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
             </div>
         </div>
-        </div>
+        </div> -->
+        <!-- Ignore End -->
+        <div class="grid xl:h-48 lg:h-auto md:h-auto sm-h-auto h-auto xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-5 xl:px-60 lg:px-32 md:px-10 sm:px-5 px-5 py-auto place-items-center">
+            <div class="bg-zinc-100 py-10 px-6 xl:w-auto lg:w-auto md:w-auto sm:w-2/3 w-2/3">
+                <i class="bi bi-activity text-4xl text-green-500"></i>
+                    <p class="text-xl font-semibold text-gray-500 py-2">Lorem ipsum.</p>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
+            </div>
+      
+                <div class="bg-zinc-100 py-10 px-6 xl:w-auto lg:w-auto md:w-auto sm:w-2/3 w-2/3">
+                    <i class="bi bi-bounding-box-circles text-4xl text-green-500"></i>
+                        <p class="text-xl font-semibold text-gray-500 py-2">Lorem ipsum.</p>
+                        <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
+                </div>
+                <div class="bg-zinc-100 py-10 px-6 xl:w-auto lg:w-auto md:w-auto sm:w-2/3 w-2/3">
+                    <i class="bi bi-calendar4-week text-4xl text-green-500"></i>
+                        <p class="text-xl font-semibold text-gray-500 py-2">Lorem ipsum.</p>
+                        <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
+                </div>
+            
+          </div>
+    </section>
+
 
         <!-- About Us Start -->
+         <section id="about" class="section">
         <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">ABOUT US</h1>
          <h1 class="text-3xl text-center font-semibold text-gray-600">ABOUT</h1>
          <p class="text-center py-4 text-gray-800">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         <div class="my-10">
-         <div class="grid grid-cols-2 mx-20">
+         <div class="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 place-content-center">
             <div class="">
-                <img src="Images/about.png" alt="" class="h-5/6 float-end">
+                <img src="Images/about.png" alt="" class="h-5/6 xl:float-end md:mx-auto sm:mx-auto mx-auto">
             </div>
-            <div class="px-5 pr-36 text-gray-700">
+            <div class="xl:px-10 lg:px-10 md:px-20 sm:px-10 px-10 text-gray-700 xl:w-3/4 lg:2/3 md:3/5 sm:1/2">
                 <p class="text-3xl font-medium text-gray-600">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</p>
                 <p class="italic py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 
@@ -105,10 +150,10 @@
                     <li class="py-1"><i class="bi bi-check2-all text-green-500 text-lg"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
                 </ul>
                 
-                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                <p class="pb-20">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
             </div>
          </div>
-         <div class="grid grid-cols-4 gap-x-4 px-64">
+         <div class="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cold-4 sm:grid-cols-2 grid-cols-1 gap-x-4 gap-y-10 md:gap-x-4 sm:gap-x-4 xl:px-64 lg:px-10 md:px-10 sm:px-5 ">
             <div class="text-center">
                 <p class="text-5xl font-bold py-2 text-green-500">232</p>
                 <p class="text-gray-500">Clients</p>
@@ -133,16 +178,17 @@
             
          </div>
         </div>
+    </section>
          <!-- About Us End -->
 
          <!-- Services Start -->
-          <section class="section bg-zinc-50 py-1">
+          <section id="services" class="section bg-zinc-50 py-1">
          <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">SERVICES</h1>
          <h1 class="text-3xl text-center font-semibold text-gray-600">SERVICES</h1>
          <p class="text-center py-4 text-gray-800">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
 
          <div class="my-10">
-            <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 px-64 ">
+            <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-5 xl:px-64 lg:px-50 md:px-20 sm:px-28 px-10 ">
                 <div class="bg-white py-20 px-10 text-center border-2 align-middle">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-activity"></i></a>
                     <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
@@ -183,6 +229,249 @@
          </div>
         </section>
           <!-- Services End -->
+          
+
+          <!-- Portfolio Start -->
+          <section id="services" class="section bg-zinc-50 py-1">
+            <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">SERVICES</h1>
+            <h1 class="text-3xl text-center font-semibold text-gray-600">SERVICES</h1>
+            <p class="text-center py-4 text-gray-800">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <ul class="flex justify-center xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 gap-2 font-semibold text-zinc-800 pt-8 pw-10">
+                <li><a href="" class="hover:text-green-600 text-green-600">ALL</a></li>
+                <li><a href="" class="hover:text-green-600">APP</a></li>
+                <li><a href="" class="hover:text-green-600">PRODUCT</a></li>
+                <li><a href="" class="hover:text-green-600">BRANDING</a></li>
+                <li><a href="" class="hover:text-green-600">BOOKS</a></li>
+            </ul><br>
+
+            <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-x-6 gap-y-6 xl:mx-64 lg:mx-20 md:mx-32 sm:mx-28 mx-16">
+
+                <div>
+                    <img src="Images/app-1.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/product-1.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/branding-1.jpg" class="h-auto" alt="">
+                </div>
+
+                <div>
+                    <img src="Images/books-1.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/app-2.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/product-2.jpg" class="h-auto" alt="">
+                </div>
+
+                <div>
+                    <img src="Images/branding-2.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/books-2.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/app-3.jpg" class="h-auto" alt="">
+                </div>
+
+                <div>
+                    <img src="Images/product-3.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/branding-3.jpg" class="h-auto" alt="">
+                </div>
+                <div>
+                    <img src="Images/books-3.jpg" class="h-auto" alt="">
+                </div>
+
+
+            </div>
+
+            </section>
+          <!-- Portfolio End -->
+          
+
+          <!-- Testimonials Start -->
+          <section id="services" class="section bg-zinc-50 py-1">
+            <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">TESTIMONIALS</h1>
+            <h1 class="text-3xl text-center font-semibold text-gray-600">TESTIMONIALS</h1>
+            <p class="text-center py-4 text-gray-800">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+            
+        </section>
+          <!-- Testimonials End -->
+
+
+          <!-- Calll to Action Start -->
+           <div class="py-20 bg-green-500 text-white text-center">
+            <p class="text-3xl font-semibold">Call To Action</p>
+            <p class="py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae perspiciatis maiores qui vitae voluptatem quasi facilis dolorem saepe eligendi.</p>
+            <button class="px-6 py-2 rounded-full hover:bg-green-400 border-2 mt-5">Call To Action</button>
+           </div>
+          <!-- Calll to Action End -->
+
+           <!-- Team Start -->
+           <section id="services" class="section bg-zinc-50 py-1">
+            <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">TEAM</h1>
+            <h1 class="text-3xl text-center font-semibold text-gray-600">TEAM</h1>
+            <p class="text-center py-4 text-gray-800 pb-16">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+            <div class="grid xl:h-auto lg:h-auto md:h-auto sm-h-auto h-auto xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6 xl:px-72 lg:px-14 md:px-36 sm:px-28 px-16 py-auto place-items-center">
+                <div>
+                    <img src="Images/team-1.jpg" alt="">
+                    <div class="w-11/12 h-20 bg-white shadow-md mx-auto -mt-10 relative px-3 pt-3">
+                        <p class="font-medium text-zinc-600 "><span class="underline underline-offset-8">Walter</span> White</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm italic text-zinc-400 py-2">Chief Executive Officer</p>
+                        
+                        <ul class="flex text-gray-400 ">
+                            <li class="px-1">
+                                <a href="https://www.twitter.com" class="hover:text-green-500"><i class="bi bi-twitter-x"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.facebook.com" class="hover:text-green-500"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.instagram.com" class="hover:text-green-500"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.linkedin.com" class="hover:text-green-500"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Images/team-2.jpg" alt="">
+                    <div class="w-11/12 h-20 bg-white shadow-md mx-auto -mt-10 relative px-3 pt-3">
+                        <p class="font-medium text-zinc-600 "><span class="underline underline-offset-8">Walter</span> White</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm italic text-zinc-400 py-2">Chief Executive Officer</p>
+                        
+                        <ul class="flex text-gray-400 ">
+                            <li class="px-1">
+                                <a href="https://www.twitter.com" class="hover:text-green-500"><i class="bi bi-twitter-x"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.facebook.com" class="hover:text-green-500"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.instagram.com" class="hover:text-green-500"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.linkedin.com" class="hover:text-green-500"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Images/team-3.jpg" alt="">
+                    <div class="w-11/12 h-20 bg-white shadow-md mx-auto -mt-10 relative px-3 pt-3">
+                        <p class="font-medium text-zinc-600 "><span class="underline underline-offset-8">Walter</span> White</p>
+                        <div class="flex justify-between">
+                            <p class="text-sm italic text-zinc-400 py-2">Chief Executive Officer</p>
+                        
+                        <ul class="flex text-gray-400 ">
+                            <li class="px-1">
+                                <a href="https://www.twitter.com" class="hover:text-green-500"><i class="bi bi-twitter-x"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.facebook.com" class="hover:text-green-500"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.instagram.com" class="hover:text-green-500"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="px-1">
+                                <a href="https://www.linkedin.com" class="hover:text-green-500"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                
+              </div>
+        </section>
+        <br>
+          <!-- Team End -->
+
+          <!-- Contact Start -->
+        <section id="services" class="section bg-zinc-50 py-1">
+            <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">CONTECT</h1>
+            <h1 class="text-3xl text-center font-semibold text-gray-600">CONTECT</h1>
+            <p class="text-center py-4 text-gray-800 pb-16">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+            
+            <div class="flex flex-row px-64 gap-6">
+            <div class="basis-1/2 bg-white shadow-lg pt-4">
+                <div class="flex py-4 px-8">
+                    <div class="py-3 pr-3"><i class="bi bi-geo-alt text-xl border rounded-full bg-green-100 text-green-600 p-2"></i></div>
+                    <div>
+                        <p class="text-xl font-medium text-zinc-500">Address</p>
+                        <p class="text-zinc-700">A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>  
+                <div class="flex py-4 px-8">
+                    <div class="py-3 pr-3"><i class="bi bi-telephone text-xl border rounded-full bg-green-100 text-green-600 p-2"></i></div>
+                    <div>
+                        <p class="text-xl font-medium text-zinc-500">Call Us</p>
+                        <p class="text-zinc-700">+91 9878678909</p>
+                    </div>
+                </div>  
+                <div class="flex py-4 px-8">
+                    <div class="py-3 pr-3"><i class="bi bi-envelope text-xl border rounded-full bg-green-100 text-green-600 p-2"></i></div>
+                    <div>
+                        <p class="text-xl font-medium text-zinc-500">Email Us</p>
+                        <p class="text-zinc-700">info@example.com</p>
+                    </div>
+                </div> 
+                <div class="p-8"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.724820755654!2d72.50208107617615!3d23.033873879165846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b3181077af5%3A0x2edd21ea340e0651!2sShilp%20corporate%20park!5e0!3m2!1sen!2sin!4v1737638094560!5m2!1sen!2sin" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                
+            </div>
+            <div class="basis-2/3 bg-white shadow-lg px-20">
+                <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                    <div class="sm:col-span-3">
+                      <label for="name" class="block text-sm/6 font-medium text-gray-900">Your Name</label>
+                      <div class="mt-2">
+                        <input type="text" name="name" id="name" autocomplete="given-name" class="block w-full border-2 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                      </div>
+                    </div>
+            
+                    
+
+                    <div class="sm:col-span-3">
+                        <label for="email" class="block text-sm/6 font-medium text-gray-900">Your Email</label>
+                        <div class="mt-2">
+                          <input id="email" name="email" type="email" autocomplete="email" class="block w-full border-2 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                      </div>
+
+                      <div class="sm:col-span-full">
+                        <label for="email" class="block text-sm/6 font-medium text-gray-900">Subject</label>
+                        <div class="mt-2">
+                          <input id="email" name="email" type="email" autocomplete="email" class="block w-full border-2 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        </div>
+                      </div>
+
+                      <div class="col-span-full">
+                        <label for="about" class="block text-sm/6 font-medium text-gray-900">Message</label>
+                        <div class="mt-2">
+                          <textarea name="about" id="about" rows="3" class="block w-full rounded-md border-2 bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"></textarea>
+                        </div>
+                      </div>
+
+                      
+                    </div>
+                    <br><br><br>
+                    <button class="px-10 py-2 rounded-full hover:bg-green-400 bg-green-500 border-2 mx-44 text-white">Send Messages</button>
+            </div>
+            </div>
+        </section>
+          <!-- Contact End -->
+
+
     </main>
     <!-- Main Content End -->
     

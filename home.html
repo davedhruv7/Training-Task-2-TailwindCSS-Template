@@ -5,7 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <style>
+    .quote-icon-right{
+        display: inline-block;
+        /* right: -5px; */
+        position: relative;
+        top: 8px;
+        transform: scale(-1, -1);
+
+    }
+    
+  </style>
 </head>
 <body>
     <!-- Header Start -->
@@ -48,6 +60,47 @@
             <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
         </nav>
     </header>  -->
+
+    <nav class="flex justify-evenly items-center w-[100%] py-6  mx-auto sticky shadow-md">
+        <div>
+            <h1 class="text-3xl font-semibold"><a href="home.html"> eNno</a></h1>
+        </div>
+        <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[40vh] left-0 top-[-700%] md:w-auto  w-full flex items-center px-5">
+            <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-2">
+        
+               
+                <li>
+                    <a href="" class=" hover:text-green-500 text-green-500">Home</a>
+                </li>
+                <li>
+                    <a href="" class=" hover:text-green-500">About</a>
+                </li>
+                <li>
+                    <a href="" class=" hover:text-green-500">Services</a>
+                </li>
+                <li>
+                    <a href="" class=" hover:text-green-500">Portfolio</a>
+                </li>
+                <li>
+                    <a href="" class=" hover:text-green-500">Team</a>
+                </li>
+                <li>
+                    <a href="" class=" hover:text-green-500">Dropdown</a>
+                </li>
+                <li>
+                    <a href="" class=" hover:text-green-500">Contact</a>
+                </li>
+                <li>
+                    <div class="flex items-center gap-6">
+                        <button class="bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-400">Get Started</button>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+       </nav>
+    
     <!-- Header End -->
 
     <!-- Main Content Start -->
@@ -189,39 +242,39 @@
 
          <div class="my-10">
             <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-5 xl:px-64 lg:px-50 md:px-20 sm:px-28 px-10 ">
-                <div class="bg-white py-20 px-10 text-center border-2 align-middle">
+                <div class="bg-white py-20 px-10 text-center border-2 align-middle hover:border-green-500 hover:cursor-pointer">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-activity"></i></a>
-                    <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
+                    <p class="pt-8 text-2xl font-medium text-gray-600 hover:text-green-500">Lorem ipsum</p>
                     <p class="text-sm text-gray-700 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique unde quo dolores quaerat dicta repellat?</p>
                 </div>
                
-                <div class="bg-white py-20 px-10 text-center border-2 align-middle">
+                <div class="bg-white py-20 px-10 text-center border-2 align-middle hover:border-green-500 hover:cursor-pointer">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-broadcast"></i></a>
-                    <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
+                    <p class="pt-8 text-2xl font-medium text-gray-600 hover:text-green-500">Lorem ipsum</p>
                     <p class="text-sm text-gray-700 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique unde quo dolores quaerat dicta repellat?</p>
                 </div>
                
-                <div class="bg-white py-20 px-10 text-center border-2 align-middle">
+                <div class="bg-white py-20 px-10 text-center border-2 align-middle hover:border-green-500 hover:cursor-pointer">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-easel"></i></a>
-                    <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
+                    <p class="pt-8 text-2xl font-medium text-gray-600 hover:text-green-500">Lorem ipsum</p>
                     <p class="text-sm text-gray-700 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique unde quo dolores quaerat dicta repellat?</p>
                 </div>
                 
-                <div class="bg-white py-20 px-10 text-center border-2 align-middle">
+                <div class="bg-white py-20 px-10 text-center border-2 align-middle hover:border-green-500 hover:cursor-pointer">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-bounding-box-circles"></i></a>
-                    <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
+                    <p class="pt-8 text-2xl font-medium text-gray-600 hover:text-green-500">Lorem ipsum</p>
                     <p class="text-sm text-gray-700 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique unde quo dolores quaerat dicta repellat?</p>
                 </div>
               
-                <div class="bg-white py-20 px-10 text-center border-2 align-middle">
+                <div class="bg-white py-20 px-10 text-center border-2 align-middle hover:border-green-500 hover:cursor-pointer">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-calendar4-week"></i></a>
-                    <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
+                    <p class="pt-8 text-2xl font-medium text-gray-600 hover:text-green-500">Lorem ipsum</p>
                     <p class="text-sm text-gray-700 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique unde quo dolores quaerat dicta repellat?</p>
                 </div>
 
-                <div class="bg-white py-20 px-10 text-center border-2 align-middle">
+                <div class="bg-white py-20 px-10 text-center border-2 align-middle hover:border-green-500 hover:cursor-pointer">
                     <a href="#" class=" bg-green-500 text-white text-3xl rounded-md p-4"><i class="bi bi-chat-square-text"></i></a>
-                    <p class="pt-8 text-2xl font-medium text-gray-600">Lorem ipsum</p>
+                    <p class="pt-8 text-2xl font-medium text-gray-600 hover:text-green-500">Lorem ipsum</p>
                     <p class="text-sm text-gray-700 pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique unde quo dolores quaerat dicta repellat?</p>
                 </div>
                
@@ -303,6 +356,85 @@
         </section>
           <!-- Testimonials End -->
 
+        <!-- Slider Start -->
+        <section class="slider_container flex justify-center items-center">
+            <div class="container py-10">
+                <div class="swiper card_slider py-10">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex justify-center items-center">
+                            <div class="h-3/4 w-4/5 ">
+                                <div class="bg-gray-200 p-6 pb-16 rounded">
+                                    <p><i class=" bi bi-quote quote-icon-left text-2xl text-green-400"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus libero eaque doloremque vel animi sit perspiciatis eius, incidunt molestias eos? <i class=" bi bi-quote quote-icon-right text-2xl text-green-400 "></i></p>
+                                </div>
+                                <img src="Images/testimonials-1.jpg" alt="" class="h-20 rounded-full -mt-10 mx-6 border-4 border-white">
+                                <div class="px-6">
+                                    <p class="font-medium text-zinc-600 text-xl/5 py-1">Soul Goodman</p>
+                                    <p class="text-sm">CEO & Founder</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center">
+                            <div class="h-3/4 w-4/5">
+                                <div class="bg-gray-200 p-6 pb-16 rounded">
+                                    <p><i class=" bi bi-quote quote-icon-left text-2xl text-green-400"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus libero eaque doloremque vel animi sit perspiciatis eius, incidunt molestias eos?<i class=" bi bi-quote quote-icon-right text-2xl text-green-400"></i></p>
+                                </div>
+                                <img src="Images/testimonials-2.jpg" alt="" class="h-20 rounded-full -mt-10 mx-6 border-4 border-white">
+                                <div class="px-6">
+                                    <p class="font-medium text-zinc-600 text-xl/5 py-1">Soul Goodman</p>
+                                    <p class="text-sm">CEO & Founder</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center">
+                            <div class="h-3/4 w-4/5">
+                                <div class="bg-gray-200 p-6 pb-16 rounded">
+                                    <p><i class=" bi bi-quote quote-icon-left text-2xl text-green-400"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus libero eaque doloremque vel animi sit perspiciatis eius, incidunt molestias eos?<i class=" bi bi-quote quote-icon-right text-2xl text-green-400"></i></p>
+                                </div>
+                                <img src="Images/testimonials-3.jpg" alt="" class="h-20 rounded-full -mt-10 mx-6 border-4 border-white">
+                                <div class="px-6">
+                                    <p class="font-medium text-zinc-600 text-xl/5 py-1">Soul Goodman</p>
+                                    <p class="text-sm">CEO & Founder</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center">
+                            <div class="h-3/4 w-4/5">
+                                <div class="bg-gray-200 p-6 pb-16 rounded">
+                                    <p><i class=" bi bi-quote quote-icon-left text-2xl text-green-400"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus libero eaque doloremque vel animi sit perspiciatis eius, incidunt molestias eos?<i class=" bi bi-quote quote-icon-right text-2xl text-green-400"></i></p>
+                                </div>
+                                <img src="Images/testimonials-4.jpg" alt="" class="h-20 rounded-full -mt-10 mx-6 border-4 border-white">
+                                <div class="px-6">
+                                    <p class="font-medium text-zinc-600 text-xl/5 py-1">Soul Goodman</p>
+                                    <p class="text-sm">CEO & Founder</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center">
+                            <div class="h-3/4 w-4/5">
+                                <div class="bg-gray-200 p-6 pb-16 rounded">
+                                    <p><i class=" bi bi-quote quote-icon-left text-2xl text-green-400"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus libero eaque doloremque vel animi sit perspiciatis eius, incidunt molestias eos?<i class=" bi bi-quote quote-icon-right text-2xl text-green-400"></i></p>
+                                </div>
+                                <img src="Images/testimonials-5.jpg" alt="" class="h-20 rounded-full -mt-10 mx-6 border-4 border-white">
+                                <div class="px-6">
+                                    <p class="font-medium text-zinc-600 text-xl/5 py-1">Soul Goodman</p>
+                                    <p class="text-sm">CEO & Founder</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+       <!-- Slider End -->
 
           <!-- Calll to Action Start -->
            <div class="py-20 bg-green-500 text-white text-center">
@@ -397,8 +529,11 @@
         <br>
           <!-- Team End -->
 
-          <!-- Contact Start -->
-        <section id="services" class="section bg-zinc-50 py-1">
+          
+
+          <!-- Contact Start using Flex basis Ignore-->
+        <!-- <section id="services" class="section bg-zinc-50 py-1">
+
             <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">CONTECT</h1>
             <h1 class="text-3xl text-center font-semibold text-gray-600">CONTECT</h1>
             <p class="text-center py-4 text-gray-800 pb-16">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -468,14 +603,228 @@
                     <button class="px-10 py-2 rounded-full hover:bg-green-400 bg-green-500 border-2 mx-44 text-white">Send Messages</button>
             </div>
             </div>
+        </section> -->
+        <!-- Contact End using Flex basis Ignore-->
+
+
+
+        <!-- Contact Start using Grid-->
+        
+        <section id="contact_us" class="selection bg-zinc-50 py-1">
+
+            <h1 class="text-5xl text-center font-semibold text-gray-100 mt-20 -mb-5">CONTECT</h1>
+            <h1 class="text-3xl text-center font-semibold text-gray-600">CONTECT</h1>
+            <p class="text-center py-4 text-gray-800 pb-16">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="grid xl:grid-cols-2 lg:grid-cols-2 md-grid-cols-1 sm-grid-cols-1 grid-cols-1 xl:px-64 lg:px-20 md:px-20 sm:px-12 px-10 gap-x-4 gap-y-4">
+                
+                <div class="xl:w-5/6 lg:w-auto">
+                    <div class="bg-white shadow-lg pt-4">
+                        <div class="flex py-4 px-8">
+                            <div class="py-3 pr-3"><i class="bi bi-geo-alt text-xl border rounded-full bg-green-100 text-green-600 p-2"></i></div>
+                            <div>
+                                <p class="text-xl font-medium text-zinc-500">Address</p>
+                                <p class="text-zinc-700">A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>  
+                        <div class="flex py-4 px-8">
+                            <div class="py-3 pr-3"><i class="bi bi-telephone text-xl border rounded-full bg-green-100 text-green-600 p-2"></i></div>
+                            <div>
+                                <p class="text-xl font-medium text-zinc-500">Call Us</p>
+                                <p class="text-zinc-700">+91 9878678909</p>
+                            </div>
+                        </div>  
+                        <div class="flex py-4 px-8">
+                            <div class="py-3 pr-3"><i class="bi bi-envelope text-xl border rounded-full bg-green-100 text-green-600 p-2"></i></div>
+                            <div>
+                                <p class="text-xl font-medium text-zinc-500">Email Us</p>
+                                <p class="text-zinc-700">info@example.com</p>
+                            </div>
+                        </div> 
+                        <div class="p-6"><iframe class="xl:w-full lg:w-full md:w-full sm:w-full w-full h-52" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.724820755654!2d72.50208107617615!3d23.033873879165846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b3181077af5%3A0x2edd21ea340e0651!2sShilp%20corporate%20park!5e0!3m2!1sen!2sin!4v1737638094560!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        
+                    </div>
+                </div>
+
+                <div class="xl:w-full lg:w-full bg-white shadow-lg xl:-ml-24 lg:-ml-0 -ml-0 px-8 pb-10 ">
+                    <form>
+                        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                            <div class="sm:col-span-3">
+                              <label for="name" class="block text-gray-900">Your Name</label>
+                              <div class="mt-2">
+                                <input type="text" name="name" id="name" autocomplete="given-name" class="block w-full border-2 bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-green-600 sm:text-sm/6">
+                              </div>
+                            </div>
+
+                            <div class="sm:col-span-3">
+                                <label for="email" class="block text-gray-900">Your Email</label>
+                                <div class="mt-2">
+                                  <input id="email" name="email" type="email" autocomplete="email" class="block w-full border-2 bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-green-600 sm:text-sm/6">
+                                </div>
+                              </div>
+        
+                              <div class="sm:col-span-full">
+                                <label for="email" class="block text-gray-900">Subject</label>
+                                <div class="mt-2">
+                                  <input id="email" name="email" type="email" autocomplete="email" class="block w-full border-2 bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-green-600 sm:text-sm/6">
+                                </div>
+                              </div>
+        
+                              <div class="col-span-full">
+                                <label for="about" class="block text-gray-900">Message</label>
+                                <div class="mt-2">
+                                  <textarea name="about" id="about" rows="3" class="block w-full border-2 bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-green-600 sm:text-sm/6"></textarea>
+                                </div>
+                              </div>
+        
+                              
+                            </div>
+                            <div class="flex justify-center">
+                                <button class="px-6 py-2 mt-10 rounded-full hover:bg-green-400 bg-green-500 border-2 px-auto text-white">Send Messages</button>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            <br><br>
         </section>
-          <!-- Contact End -->
 
 
+
+
+        
+         <!-- Contact End using Grid-->
+
+         <!-- News Letter Start -->
+            <div>
+                <div class="text-center p-14 bg-zinc-100">
+                    <p class="text-2xl font-semibold text-zinc-600">Join Our Newsletter</p>
+                    <p class="py-3 text-zinc-700">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                    <div>
+                        <div class="mt-2 flex justify-center">
+                            <input id="email" name="email" type="email" autocomplete="email" class="block border-2 xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-1/2 w-1/2 rounded-full bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-green-600 sm:text-sm/6">
+                            <button class="px-6 py-2 rounded-full hover:bg-green-400 bg-green-500 border-2 px-auto text-white -ml-16">Subscribe</button>
+                          </div>
+                          <div class="">
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+         <!-- News Letter End -->
+
+
+
+
+         <footer class="my-10">
+            <div class="grid xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 gap-4 xl:px-64 lg:px-28 md:px-28 sm:px-12 px-10">
+                <div class="col-span-2 max-sm:col-span-1">
+                    <p class="text-2xl text-gray-600 font-medium py-2">eNno</p>
+                    <div class="text-zinc-600 text-sm">
+                    <p class="py-1">A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+                    <p class="pt-3 py-0.5"><b>Phone:</b> +1 5589 55488 55</p>
+                    <p><b>Email:</b> info@example.com</p>
+                    </div>
+                </div>
+            
+                <div>
+                    <p class="text-xl text-gray-600 font-medium py-2">Useful Links</p>
+                    <ul class="text-zinc-600 text-sm">
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Home</li>
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> About us</li>
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Services</li>
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Terms of service</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-xl text-gray-600 font-medium py-2">Our Services</p>
+                    <ul class="text-zinc-600 text-sm">
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Web Design</li>
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Web Development</li>
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Product Management</li>
+                        <li class="py-1"><i class="bi bi-chevron-right text-sm text-green-500"></i> Marketing</li>
+                    </ul>
+                </div>
+                
+                <div class="col-span-2 max-sm:col-span-1">
+                    <p class="text-xl text-gray-600 font-medium py-2">Follow Us</p>
+                    <p class="text-zinc-600 text-sm">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                    <div class="pt-4">
+                        <a href="https://www.twitter.com" class="border-2 border-zinc-300 hover:border-green-500  text-zinc-500 rounded-full p-2 mx-1 text-gray hover:text-green-500"><i class="bi bi-twitter-x"></i></a>
+                    
+                    
+                        <a href="https://www.facebook.com" class="border-2 border-zinc-300 hover:border-green-500 text-zinc-500 rounded-full p-2 mx-1 text-gray hover:text-green-500"><i class="bi bi-facebook"></i></a>
+                    
+                    
+                        <a href="https://www.instagram.com" class="border-2 border-zinc-300 hover:border-green-500 text-zinc-500 rounded-full p-2 mx-1 text-gray hover:text-green-500"><i class="bi bi-instagram"></i></a>
+                    
+                    
+                        <a href="https://www.linkedin.com" class="border-2 border-zinc-300 hover:border-green-500 text-zinc-500 rounded-full p-2 mx-1 text-gray hover:text-green-500"><i class="bi bi-linkedin"></i></a>
+                    
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="flex justify-center py-4"><hr class="w-3/4 items-center"></div>
+            <div class="text-center text-sm text-zinc-600">
+                <p class="py-2">© Copyright <b>eNno</b> All Rights Reserved</p>
+                <p>Designed by <span class="text-green-500">BootstrapMade</span> Distributed by <span class="text-green-500">ThemeWagon</span></p>
+            </div>
+            
+           
+         </footer>
     </main>
     <!-- Main Content End -->
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".card_slider", {
+          spaceBetween: 30,
+          loop:true,
+          speed:1000,
+          freeMode: true,
+          
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
 
+          breakpoints: {
+                1280: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                },
+                1024: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+                },
+                768: {
+                slidesPerView: 1,
+                spaceBetween: 50,
+                },
+            },
+          
+        });
+      </script>
+      
     <script>
         const navLinks = document.querySelector('.nav-links')
         function onToggleMenu(e){

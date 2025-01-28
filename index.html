@@ -69,6 +69,10 @@
         background-color: #10bc69 !important;
       }
 
+      .fix{
+        position: sticky;
+      }
+
   </style>
 </head>
 <body>
@@ -87,7 +91,7 @@
                     <a href="home.html" class=" hover:text-green-500 duration-200 text-green-500">Home</a>
                 </li>
                 <li>
-                    <a href="#about" class=" hover:text-green-500 duration-200">About</a>
+                    <a href="#about" class=" hover:text-green-500 duration-200" >About</a>
                 </li>
                 <li>
                     <a href="#services" class=" hover:text-green-500 duration-200">Services</a>
@@ -579,7 +583,7 @@
             <div data-aos="zoom-in" data-aos-delay="100">
             <p class="text-3xl font-semibold">Call To Action</p>
             <p class="py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae perspiciatis maiores qui vitae voluptatem quasi facilis dolorem saepe eligendi.</p>
-            <button class="px-6 py-2 rounded-full hover:bg-green-400 duration-300 border-2 mt-5">Call To Action</button>
+            <button class="px-6 py-2 rounded-full hover:bg-green-400 duration-300 border-2 mt-5"><a href="#home">Call To Action</a></button>
             </div>
            </div>
           <!-- Calll to Action End -->
@@ -796,19 +800,19 @@
                 <div>
                     <p class="text-xl text-gray-600 font-medium py-2">Useful Links</p>
                     <ul class="text-zinc-600 text-sm">
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Home</a></li>
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> About us</a></li>
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Services</a></li>
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Terms of servicr</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="home.html" class="hover:text-green-500 duration-200"> Home</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#about" class="hover:text-green-500 duration-200"> About us</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#services" class="hover:text-green-500 duration-200"> Services</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#team" class="hover:text-green-500 duration-200"> Terms of service</a></li>
                     </ul>
                 </div>
                 <div>
                     <p class="text-xl text-gray-600 font-medium py-2">Our Services</p>
                     <ul class="text-zinc-600 text-sm">
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Web Design</a></li>
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Web Development</a></li>
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Product Management</a></li>
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="" class="hover:text-green-500 duration-200"> Marketing</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#services" class="hover:text-green-500 duration-200"> Web Design</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#services" class="hover:text-green-500 duration-200"> Web Development</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#services" class="hover:text-green-500 duration-200"> Product Management</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#services" class="hover:text-green-500 duration-200"> Marketing</a></li>
                     </ul>
                 </div>
                 
@@ -835,8 +839,11 @@
             <div class="flex justify-center py-4"><hr class="w-3/4 items-center"></div>
             <div class="text-center text-sm text-zinc-600">
                 <p class="py-2">© Copyright <b>eNno</b> All Rights Reserved</p>
-                <p>Designed by <span class="text-green-500">BootstrapMade</span> Distributed by <span class="text-green-500">ThemeWagon</span></p>
-                <a href="#home" class="flex justify-end pr-5"><i class="bi bi-arrow-up-circle-fill text-4xl text-green-500 hover:text-green-400 duration-300 "></i></a>
+                <p>Designed by <span class="text-green-500 hover:text-green-400 duration-300 hover:cursor-pointer">BootstrapMade</span> Distributed by <span class="text-green-500 hover:text-green-400 duration-300 hover:cursor-pointer">ThemeWagon</span></p>
+                <!-- <a href="#home" class="flex justify-end pr-5 "></a> -->
+            </div>
+            <div class="rounded-full shadow-lg fixed bottom-5 right-5 cursor-pointer hover" onclick="window.scrollTo({top:0, behavior:'smooth'});">
+                <i class="fix bi bi-arrow-up-circle-fill text-4xl text-green-500 hover:text-green-400 duration-300 sticky"></i>
             </div>
             
            

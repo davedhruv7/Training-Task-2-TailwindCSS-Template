@@ -81,14 +81,14 @@
 
     <nav class="flex justify-evenly items-center w-[100%] py-6  mx-auto  shadow-md ">
         <div>
-            <h1 class="text-3xl font-semibold text-zinc-500"><a href="home.html"> eNno</a></h1>
+            <h1 class="text-3xl font-semibold text-zinc-500"><a href="index.html"> eNno</a></h1>
         </div>
         <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[40vh] left-0 top-[-700%] md:w-auto  w-full flex items-center px-5">
             <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-2 text-zinc-500">
         
                
                 <li>
-                    <a href="home.html" class=" hover:text-green-500 duration-200 text-green-500">Home</a>
+                    <a href="index.html" class=" hover:text-green-500 duration-200 text-green-500">Home</a>
                 </li>
                 <li>
                     <a href="#about" class=" hover:text-green-500 duration-200" >About</a>
@@ -102,16 +102,22 @@
                 <li>
                     <a href="#team" class=" hover:text-green-500 duration-200">Team</a>
                 </li>
-                <li>
-                    <div class="hover:text-green-500 duration-200 hover:cursor-pointer"><p>Dropdown</p>
-                    
-                    </div>
-                    <div id="dropdown-menu" class="hidden absolute top-50 w-400 border border-gray-300 bg-white shadow-md mt-2">
-                        <div class="py-4 px-4 cursor-pointer hover:bg-gray-100">Account</div>
-                        <div class="py-4 px-4 cursor-pointer hover:bg-gray-100">Settings</div>
-                        <!-- Add more options here -->
-                      </div>
-                </li>
+                <li class="relative group">
+                    <a href="#" class="flex items-center text-gray-600 hover:text-green-500 transition">
+                      Dropdown
+                      <svg class="ml-1 w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </a>
+                    <ul
+                      class="absolute left-0 mt-2 bg-white border border-gray-300 rounded shadow-lg w-48 hidden group-hover:block group-focus-within:block">
+                      <li><a href="#" class="block px-4 py-2 text-gray-600 hover:text-green-500 duration-300">Dropdown 1</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-600 hover:text-green-500 duration-300">Dropdown 2</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-600 hover:text-green-500 duration-300">Dropdown 3</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-600 hover:text-green-500 duration-300">Dropdown 4</a></li>
+                    </ul>
+                  </li>
                 <li>
                     <a href="#contact_us" class=" hover:text-green-500 duration-200">Contact</a>
                 </li>
@@ -800,7 +806,7 @@
                 <div>
                     <p class="text-xl text-gray-600 font-medium py-2">Useful Links</p>
                     <ul class="text-zinc-600 text-sm">
-                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="home.html" class="hover:text-green-500 duration-200"> Home</a></li>
+                        <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="index.html" class="hover:text-green-500 duration-200"> Home</a></li>
                         <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#about" class="hover:text-green-500 duration-200"> About us</a></li>
                         <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#services" class="hover:text-green-500 duration-200"> Services</a></li>
                         <li class="py-1 "><i class="bi bi-chevron-right text-sm text-green-500"></i><a href="#team" class="hover:text-green-500 duration-200"> Terms of service</a></li>
